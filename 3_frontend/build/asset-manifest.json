@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.766f7c15.chunk.css",
+    "main.js": "/static/js/main.dceda16b.chunk.js",
+    "main.js.map": "/static/js/main.dceda16b.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.898c54ef.js",
+    "runtime~main.js.map": "/static/js/runtime~main.898c54ef.js.map",
+    "static/css/2.8271af8e.chunk.css": "/static/css/2.8271af8e.chunk.css",
+    "static/js/2.66d8ac29.chunk.js": "/static/js/2.66d8ac29.chunk.js",
+    "static/js/2.66d8ac29.chunk.js.map": "/static/js/2.66d8ac29.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f4c4465c16ce4f822d206dec955f0a92.js": "/precache-manifest.f4c4465c16ce4f822d206dec955f0a92.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.8271af8e.chunk.css.map": "/static/css/2.8271af8e.chunk.css.map",
+    "static/css/main.766f7c15.chunk.css.map": "/static/css/main.766f7c15.chunk.css.map",
+    "static/media/SeasonalRank.png": "/static/media/SeasonalRank.2aeb5875.png",
+    "static/media/bg0-q3.jpg": "/static/media/bg0-q3.83d9781e.jpg",
+    "static/media/index.css": "/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  }
+}
