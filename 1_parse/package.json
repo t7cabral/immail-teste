@@ -1,0 +1,15 @@
+{
+  "name": "1_parse",
+  "version": "1.0.0",
+  "description": "Teste para vaga de desenvolvedor na ImMail. Task 1 e 2.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.7.0"
+  }
+}
