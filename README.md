@@ -8,9 +8,9 @@ A descrição das tarefas a serem realizadas estão no endereço https://gist.gi
 
 | Pasta      | Descrição                                                    |
 | ---------- | ------------------------------------------------------------ |
-| 1_parse    | Realiza a leitura do arquivo ***game.log*** e salva no MongoDB. |
+| 1_parse    | Realiza a leitura do arquivo ***game.log*** e salva no MongoDB em Cloud. |
 | 2_api      | API Restfull rodando na porta 2000 para servir os dados do MongoDB para o Frontend. |
-| 3_frontend | Frontend em ReactJS, consumindo API (*projeto 2_api*).       |
+| 3_frontend | Frontend em ReactJS, consumindo API (*2_api*).               |
 
 
 
@@ -22,8 +22,6 @@ Foi utilizado o serviço de Cloud do site https://www.mongodb.com.
 
 # Executando o projeto
 
-
-
 ### Preparação do ambiente
 
 É necessário instalar ***NodeJS*** e o gerenciador de pacotes Javascript ***Yarn***.
@@ -32,13 +30,38 @@ Link de instalação do NodeJS https://nodejs.org/en/download/package-manager/
 
 Link de instalação do Yarn https://yarnpkg.com/lang/pt-br/docs/install
 
-
-
 ### Execução
 
-Na raiz de cada pasta de projeto (***1_parse***, ***2_api*** e ***3_frontend***), execute o comando `yarn install` para baixar  as dependência.
+##### 1_parse:
 
-Execute o comando `yarn start` na raiz de cada projeto para iniciar.
+Na raiz da pasta *1_parse* executar:
+
+1. `yarn install` para baixar as dependências do projeto;
+2. `yarn start` para executar o script;
+
+![](1_parse-apresentacao.gif)
+
+
+
+##### 2_api:
+
+Na raiz da pasta *2_api* executar:
+
+1. `yarn install` para baixar as dependências do projeto;
+2. `yarn start` para executar o script;
+
+![](2_api-apresentacao.gif)
+
+
+
+##### 3_frontend:
+
+Na raiz da pasta *3_frontend* executar:
+
+1. `yarn install` para baixar as dependências do projeto;
+2. `yarn start` para executar o script;
+
+![](3_frontend-apresentacao.gif)
 
 Vídeo do APP em funcionamento https://youtu.be/xMbUgCTIb3c
 
@@ -46,7 +69,7 @@ Vídeo do APP em funcionamento https://youtu.be/xMbUgCTIb3c
 
 # Quesitos não cumpridos
 
-Não foram realizados suite de testes como solicitado no *Quesito 2* devido minha ignorância no assunto, entretanto, foram realizados testes "metodologia própria" em cada etapa do desenvolvimento.
+Não foram realizados suíte de testes como solicitado no *Quesito 2* devido minha ignorância no assunto, entretanto, foram realizados testes "metodologia própria" em cada etapa do desenvolvimento.
 
 
 
